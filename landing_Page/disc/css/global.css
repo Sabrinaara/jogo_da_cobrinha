@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Domine:wght@600&display=swap');
+
+header {
+
+background-image:url(/img/62bac488970d190a7b3da24653b548e0.svg);
+height: 250px;
+ width: 100%;
+
+background-position: top;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.conteudoum {
+    background-image: url(/img/imgemcont.svg);
+ z-index: 1;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.imagem {
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    min-height: 100px max-content;
+    max-height: 500%;
+}
+
+
+.imagem-secundarias {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    min-height: 74px;
+    max-height: 500%;
+   padding: 15px;
+    
+}
+
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body { 
+   
+    font-size: 100%;
+
+}
+
+.cabecalho {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+   
+}
+
+
+
+.cabecalho-nav {
+    display: flex;
+  gap: 35px;
+padding-left: 20px;
+  margin-top: 0;
+  
+ 
+}
+
+.cabecalho-menu {
+   
+    margin-top: 0;
+    font-size:20px;
+    color: rgb(245, 239, 239);
+    border-radius: 10px ;
+    padding-left: 10px;
+  
+    
+}
+.cabecalho-menu:hover {
+color: #65376d;
+}
+
+
+.conteudo-principal {
+   
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards { display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+
+.conteudo-texto {
+    margin: 20px;
+    padding: 10px;
+    color: #D96A7E;
+display: flex;
+flex-direction: column;
+gap: 32px;
+}
+
+.conteudo-titulo{
+    color: #D96299;
+    font-family: 'Bree Serif', serif;
+font-size: 40px;
+
+}
+
+.conteudo-subtitulo {
+    font-size: clamp(1em,  1vw + 1vw, 1.3em);
+    font-family: 'Bree Serif', serif;
+}
+
+.botao {
+ 
+    width: 150px;
+  
+    height: 50px;
+    border: none;
+    background-color: #BA68C8;
+    border-bottom: #65376d 3px solid;
+    border-radius: 10px;
+  
+   
+}
+
+.botao:hover {
+ 
+    width: 150px;
+    height: 50px;
+  border: none;
+   background-color:#65376d ;
+   border-bottom: #65376d 3px solid;
+   
+}
+.container {
+    height: 300px;
+    background-color:   rgb(243, 211, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    z-index: 1;
+    
+}
+
+.titulo-container {
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 211, 255);
+}
+.container .card {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background:  rgb(241, 215, 250);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-top: 1px solid rgba(255, 255, 255, 0.5);
+   border-left: 1px solid rgba(238, 204, 247, 0.541);
+}
+
+.container .card .content {
+    
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container .card:hover .content {
+
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container .card .content h2 {
+    position: absolute;
+    top: -0px;
+    right: 60px;
+    font-size: 8em;
+    pointer-events: none;
+    color: rgba(224, 56, 247, 0.5);
+    
+
+}
+
+.container .card .content h3 {
+   
+    font-size: 1.8em;
+color: rgb(33, 2, 39);
+z-index: 1;
+top: -0px;
+right: 60px;
+}
+
+
+.container .card .content p {
+   
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+  }
+  
+
+.card {
+  border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.objeto {
+    height: 100px;
+    width: 100px;
+}
+
+
+.cobravaso {
+    
+   
+   
+    overflow: hidden;
+    
+    min-height: 100px;
+    max-height: 100%;
+}
+
+
+
+ 
+
+footer {
+    background-image: url(/img/FOOTER.svg);
+    width: 100%;
+    height: 15vmax;
+   
+    
+}
+
+.ultimo-h3 {
+   
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+   
+}
